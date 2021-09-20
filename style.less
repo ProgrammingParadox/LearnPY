@@ -1,0 +1,86 @@
+// Less is SOOOOO much better than normal css
+@title-background: #333; 
+
+#editor-output {
+    font-family: monospace;
+    background-color: #333333;
+    
+    color: white;
+    padding: 6px;
+
+    width: auto;
+    height: 200px;
+
+    overflow-y: scroll;
+
+    resize: vertical;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Trebuchet MS";
+}
+
+#title {
+    background-color: @title-background;
+
+    text-align: center;
+    font-family: "consolas", monospace;
+
+    color: #FFF;
+
+    margin: 0px 0px 3px 0px;
+    padding: 200px 50px 200px 50px;
+
+    box-shadow: darken(@title-background, 5%) 0px 3px;
+
+    h1 {
+        text-shadow: #222 0px 3px;
+
+        span {
+            color: #F50
+        }
+    }
+
+    h2 {
+        color: #777;
+
+        font-size: 14px;
+        font-style: italic;
+
+        text-shadow: #222 0px 2px;
+    }
+}
+
+.page {
+    padding: 10px;
+
+    h3 {
+        text-align: center;
+    }
+}
+
+#editor, #toolbar {
+    padding: 10px;
+
+    border: solid 1px #AAA;
+    border-top: none;
+}
+
+#toolbar button {
+    padding: 10px;
+
+    background-color: #FFF;
+
+    border: solid 1px #AAA;
+    border-radius: 2px;
+
+    &:hover {
+        background-color: #EEE;
+    }
+}
+
+
+

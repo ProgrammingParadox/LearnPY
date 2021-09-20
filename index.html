@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    
+	<title>repl.it</title>
+
+    <!-- Prism styles -->
+    <link href="prism/prism.css" rel="stylesheet"/>
+
+    <!-- Styling  -->
+    <link href="style.less" rel="stylesheet/less" type="text/css"/>
+
+    <!-- less.js (better version of CSS) -->
+    <script src="less/dist/less.js" type="text/javascript"></script>
+
+    <!-- CodeMirror (text editor) -->
+    <script src="codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="codemirror/theme/dream.css">
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+    <script src="codemirror/mode/python/python.js"></script>
+    <script src="codemirror/addon/display/autorefresh.js"></script>
+</head>
+
+<body>
+    <!-- Title banner -->
+    <div id="title">
+        <h1>Learn <span>Python</span>
+    </div>
+    
+    <div class="page" id="start">
+        <h3>Welcome!</h3>
+
+        <p>Ready to learn Python? Start here!</p>
+        <a><!-- introduction link --></a>
+
+        <p>Already know some things? Pick a specific tutorial here!</p>
+        <ol>
+            <!-- table of contents -->
+        </ol>
+    </div>
+
+    <div class="page" id="code">
+        <div id="editor-holder">
+            <!-- 
+                Editor will be added here by JS
+            -->
+        </div>
+
+        <div id="toolbar">
+            <button id="run-code">Run code</button>
+            <button id="clear-console" disabled>Clear console</button>
+        </div>
+
+        <div id='editor-output'>
+            <!-- code output goes here -->
+        </div>
+
+        <div id='console'>
+            <input class='code-input'>
+            <!-- console goes here -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <div>
+        <!-- Skulpt.js (Python interpreter) -->
+        <script src="skulpt/skulpt.min.js" type="text/javascript"></script>
+        <script src="skulpt/skulpt-stdlib.js" type="text/javascript"></script>
+
+        <!-- Prism.js (Syntax highlighting) -->
+        <script src="prism/prism.js"></script>
+
+        <!-- web scripts -->
+        <script src="scripts/pages.js"></script>
+        <script src="scripts/run.js"></script>
+        <script src="scripts/editor.js"></script>
+        <script src='scripts/console.js'></script>
+        <script src="scripts/script.js"></script>
+    </div>
+</body>
+
+</html>

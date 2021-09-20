@@ -1,0 +1,138 @@
+.cm-s-dream.CodeMirror {
+  background-color: #333;
+  color: #A6ACCD;
+}
+
+.cm-s-dream .CodeMirror-gutters {
+  background: #222;
+  color: #676E95;
+  border: none;
+
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cm-s-dream .CodeMirror-guttermarker,
+.cm-s-dream .CodeMirror-guttermarker-subtle,
+.cm-s-dream .CodeMirror-linenumber {
+  color: #676E95;
+}
+
+.cm-s-dream .CodeMirror-cursor {
+  border-left: 1px solid #EEE;
+}
+.cm-s-dream.cm-fat-cursor .CodeMirror-cursor {
+  background-color: #607c8b80 !important;
+}
+.cm-s-dream .cm-animate-fat-cursor {
+  background-color: #607c8b80 !important;
+}
+
+.cm-s-dream div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+
+.cm-s-dream.CodeMirror-focused div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+
+.cm-s-dream .CodeMirror-line::selection,
+.cm-s-dream .CodeMirror-line>span::selection,
+.cm-s-dream .CodeMirror-line>span>span::selection {
+  background: rgba(128, 203, 196, 0.2);
+}
+
+.cm-s-dream .CodeMirror-line::-moz-selection,
+.cm-s-dream .CodeMirror-line>span::-moz-selection,
+.cm-s-dream .CodeMirror-line>span>span::-moz-selection {
+  background: rgba(128, 203, 196, 0.2);
+}
+
+.cm-s-dream .CodeMirror-activeline-background {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cm-s-dream .cm-keyword {
+  color: #C792EA;
+}
+
+.cm-s-dream .cm-operator {
+  color: #89DDFF;
+}
+
+.cm-s-dream .cm-variable-2 {
+  color: #EEFFFF;
+}
+
+.cm-s-dream .cm-variable-3,
+.cm-s-dream .cm-type {
+  color: #f07178;
+}
+
+.cm-s-dream .cm-builtin {
+  color: #FFCB6B;
+}
+
+.cm-s-dream .cm-atom {
+  color: #F78C6C;
+}
+
+.cm-s-dream .cm-number {
+  color: #FF5370;
+}
+
+.cm-s-dream .cm-def {
+  color: #82AAFF;
+}
+
+.cm-s-dream .cm-string {
+  color: #C3E88D;
+}
+
+.cm-s-dream .cm-string-2 {
+  color: #f07178;
+}
+
+.cm-s-dream .cm-comment {
+  color: rgb(144, 153, 209);
+}
+
+.cm-s-dream .cm-variable {
+  color: #d8d8d8;
+}
+
+.cm-s-dream .cm-tag {
+  color: #FF5370;
+}
+
+.cm-s-dream .cm-meta {
+  color: #FFCB6B;
+}
+
+.cm-s-dream .cm-attribute {
+  color: #C792EA;
+}
+
+.cm-s-dream .cm-property {
+  color: #C792EA;
+}
+
+.cm-s-dream .cm-qualifier {
+  color: #DECB6B;
+}
+
+.cm-s-dream .cm-variable-3,
+.cm-s-dream .cm-type {
+  color: #DECB6B;
+}
+
+
+.cm-s-dream .cm-error {
+  color: rgba(255, 255, 255, 1.0);
+  background-color: #FF5370;
+}
+
+.cm-s-dream .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
