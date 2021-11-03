@@ -1,8 +1,8 @@
-# Todo: (Josh)
+# Todo:
 - Add console output
 - page changing script
 - Course interaction
 
-# Todo: (Prajwal)
+# Todo:
 - Create course
 - Help with scripting?
